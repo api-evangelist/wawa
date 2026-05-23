@@ -1,0 +1,75 @@
+name: Wawa
+description: >-
+  Wawa is a privately held, family-owned convenience store and fuel retail chain
+  headquartered in Pennsylvania. Founded in 1803 as a dairy farm and operating
+  convenience stores since 1964, Wawa runs approximately 1,100 stores across
+  Pennsylvania, New Jersey, Delaware, Maryland, Virginia, Florida, North Carolina,
+  Indiana, and Alabama. The company is a regional fresh-food, beverage, and fuel
+  brand with a strong loyalty program (Wawa Rewards) and a mobile ordering app.
+  Wawa operates an internal API management platform (built with MuleSoft) used to
+  connect to third-party services such as Uber Eats, Grubhub, and DoorDash for
+  delivery, but does not publish a public developer portal or expose public APIs.
+image: https://avatars.githubusercontent.com/u/Wawa
+url: https://github.com/api-evangelist/wawa
+created: 2026-05-23
+modified: 2026-05-23
+specificationVersion: "0.16"
+tags:
+  - Convenience Store
+  - Fuel Retail
+  - Food Service
+  - Loyalty
+  - Mobile Ordering
+  - Private Company
+  - Regional Retail
+apis: []
+common:
+  - type: WebSite
+    url: https://www.wawa.com
+  - type: AboutUs
+    url: https://www.wawa.com/about
+  - type: MobileApp
+    url: https://www.wawa.com/ways-to-order/mobile-app
+  - type: OrderOnline
+    url: https://order.wawa.com
+  - type: Rewards
+    url: https://www.wawa.com/rewards
+  - type: StoreLocator
+    url: https://www.wawa.com/stores
+  - type: Careers
+    url: https://www.wawa.com/careers
+  - type: ContactUs
+    url: https://www.wawa.com/contact-us
+  - type: GitHubOrganization
+    url: https://github.com/wawa
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+x-type: company
+x-tier: 3
+x-tier-reason: no-apis
+x-public-apis: false
+x-developer-portal: false
+x-openapi: false
+x-asyncapi: false
+x-sdk: false
+x-status-page: false
+x-rss: false
+x-github-org-public-repos: 0
+x-internal-api-platform: MuleSoft (per published case study; not publicly accessible)
+x-third-party-integrations:
+  - Uber Eats
+  - Grubhub
+  - DoorDash
+x-research-notes: >-
+  As of 2026-05, Wawa's homepage, about page, and the github.com/wawa
+  organization contain no developer portal, no public API documentation,
+  no public repositories, no published OpenAPI/AsyncAPI specs, no SDKs,
+  no status page, and no engineering blog. Wawa's digital integration is
+  consumer-facing (mobile ordering, rewards, real-time gas prices, third-party
+  delivery partnerships). Industry coverage describes an internal MuleSoft-based
+  API management platform used to connect to third-party software, but this
+  surface is not exposed to public developers. No artifacts (openapi/, asyncapi/,
+  json-schema/, capabilities/, examples/, rules/, plans/, rate-limits/, finops/)
+  were generated for this repository because there is no underlying public API
+  surface to back them.
