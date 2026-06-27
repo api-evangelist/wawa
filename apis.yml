@@ -24,7 +24,7 @@ tags:
   - Regional Retail
 apis: []
 common:
-  - type: WebSite
+  - type: Website
     url: https://www.wawa.com
   - type: AboutUs
     url: https://www.wawa.com/about
