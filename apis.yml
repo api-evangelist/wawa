@@ -24,6 +24,8 @@ tags:
   - Regional Retail
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/wawa-domain-security.yml
   - type: Website
     url: https://www.wawa.com
   - type: AboutUs
