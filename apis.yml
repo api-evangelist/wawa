@@ -9,6 +9,17 @@ description: >-
   Wawa operates an internal API management platform (built with MuleSoft) used to
   connect to third-party services such as Uber Eats, Grubhub, and DoorDash for
   delivery, but does not publish a public developer portal or expose public APIs.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/Wawa
 url: https://github.com/api-evangelist/wawa
 created: 2026-05-23
