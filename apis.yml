@@ -33,6 +33,8 @@ accessModel:
   method: derived
 image: https://avatars.githubusercontent.com/u/Wawa
 url: https://github.com/api-evangelist/wawa
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 created: 2026-05-23
 modified: 2026-05-23
 specificationVersion: '0.23'
