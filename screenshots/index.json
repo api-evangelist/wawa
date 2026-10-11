@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "wawa",
+    "captured_at": "2026-10-11T195528",
+    "source_url": "https://www.wawa.com",
+    "source_type": "Website",
+    "file": "wawa-2026-10-11T195528.png",
+    "bytes": 281292,
+    "capture": "playwright-local"
+  }
+]
