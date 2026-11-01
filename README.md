@@ -64,46 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wawa is a privately held, family-owned convenience store and fuel retail chain headquartered in Pennsylvania. Founded in 1803 as a dairy farm and operating convenience stores since 1964, Wawa runs approximately 1,100 stores across PA, NJ, DE, MD, VA, FL, NC, IN, and AL. The brand is known for fresh-made hoagies, built-to-order beverages, fuel, and the Wawa Rewards loyalty program.
+Wawa is a privately held, family-owned convenience store and fuel retail chain headquartered in Pennsylvania. Founded in 1803 as a dairy farm and operating convenience stores since 1964, Wawa runs approximately 1,100 stores across Pennsylvania, New Jersey, Delaware, Maryland, Virginia, Florida, North Carolina, Indiana, and Alabama. The company is a regional fresh-food, beverage, and fuel brand with a strong loyalty program (Wawa Rewards) and a mobile ordering app. Wawa operates an internal API management platform (built with MuleSoft) used to connect to third-party services such as Uber Eats, Grubhub, and DoorDash for delivery, but does not publish a public developer portal or expose public APIs.
 
-This repository profiles Wawa for the [API Evangelist Network](https://github.com/api-evangelist/api-evangelist-network). Wawa does **not** publish a public developer portal, public APIs, OpenAPI specs, SDKs, or a public GitHub presence as of May 2026.
+**Areas:** Convenience Stores · Fuel Retail · Food Service · Loyalty · Mobile Ordering · Private Company · Regional Retail
 
-## Status
+## Wawa on APIs.io
 
-| Property | Value |
+Everything profiled for Wawa is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wawa/](https://apis.io/providers/wawa/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wawa Domain Security](https://apis.io/security/wawa/wawa-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wawa.com)
+- [GitHub](https://github.com/wawa)
+
+## API Evangelist rating
+
+**Kin Score 3.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| x-type | company |
-| x-tier | 3 |
-| x-tier-reason | no-apis |
-| Public APIs | none |
-| Developer portal | none |
-| OpenAPI / AsyncAPI | none |
-| SDKs / CLIs | none |
-| Public GitHub repos | 0 (org `github.com/wawa` exists but has no public repositories) |
-| Status page | none |
-| RSS / changelog | none |
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-## What does exist
+**Agent readiness 0.0** — human-only
 
-- [wawa.com](https://www.wawa.com) — consumer website (menu, store locator, careers)
-- [order.wawa.com](https://order.wawa.com) — mobile/web ordering surface
-- [Wawa Mobile App](https://www.wawa.com/ways-to-order/mobile-app) — iOS/Android app for ordering, rewards, fuel pricing
-- [Wawa Rewards](https://www.wawa.com/rewards) — loyalty program
-- Third-party delivery integrations with **Uber Eats**, **Grubhub**, and **DoorDash** — no public API contract for partners is published by Wawa
-- Internal MuleSoft-based API management platform (referenced in industry coverage; not publicly accessible)
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Why no artifacts?
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-Per the API Evangelist pipeline rules, we do not generate empty or placeholder OpenAPI, AsyncAPI, JSON Schema, capability, example, ruleset, plans, rate-limits, or FinOps files when there is no underlying public API to describe. Wawa's digital strategy is consumer-facing and partner-driven through a small set of pre-existing aggregator integrations — there is no documented public developer surface to profile.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wawa/](https://apis.io/providers/wawa/).
 
-If Wawa launches a public developer portal, partner API program (e.g. fleet/fuel-card APIs, location feed, menu/inventory feed, or a webhook surface for delivery partners), this repository will be revisited.
+## How this profile is made
 
-## Files
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [apis.yml](./apis.yml) — APIs.json/APIs.yml index for this provider
-- [README.md](./README.md) — this file
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wawa: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Related
+## Open an issue
 
-- [API Evangelist Network registry entry](https://github.com/api-evangelist/api-evangelist-network/blob/main/apis.yml)
-- [Wawa on GitHub](https://github.com/wawa) (0 public repos)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wawa/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
